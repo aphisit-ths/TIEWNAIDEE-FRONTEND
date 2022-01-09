@@ -7,7 +7,9 @@
 
 ### API-Gateway
 
-ในส่วน API-Gateway เข้าไปที่ folder gql-api จากนั้นใช้คำสั่ง  npm start เพื่อ Run Server สำหรับ GraphQLend-point URL จะอยู่ที่ http://localhost:4444/graphql ครับ
+ในส่วน API-Gateway เข้าไปที่ folder gql-api จากนั้นใช้คำสั่ง  npm start เพื่อ Run Server 
+
+สำหรับ GraphQL end-point URL จะอยู่ที่ http://localhost:4444/graphql ครับ
 
 ##### ปล.ต้องเปิด JSON SERVER ด้วยนะครับ
 
@@ -23,9 +25,9 @@ end-point URL จะอยู่ที่ http://localhost:3000 ครับ
 
 
 #### Contact
-EMAIL:Aphisit.thu@gmail.com
-TEL:093-4358753
-GITHUB PRO : github.com/apisit-kmitl/TIEWNAIDEE-FRONTEND
+##### EMAIL:Aphisit.thu@gmail.com
+##### TEL:093-4358753
+##### GITHUB: github.com/apisit-kmitl/TIEWNAIDEE-FRONTEND
 
 
 
