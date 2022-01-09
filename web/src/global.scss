@@ -1,0 +1,23 @@
+$base-color: #353535;
+$secondary-color:#929292;
+$third-color:#bdbdbd;
+$highlight-color:#2C9CDB;
+$background-color:#f3f3f3;
+
+$headline3:70px;
+$headline-title:25px;
+$body:16px;
+
+$light:300;
+$semi-bold:500;
+$bold:600;
+
+$sm: 812px;
+
+
+@mixin mobile {
+    @media (max-width: #{$sm}){
+        @content
+    }
+};
+

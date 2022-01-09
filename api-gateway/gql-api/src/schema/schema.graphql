@@ -1,0 +1,15 @@
+type Query {
+ 
+  trips(keyword:String!):[Trip]!
+}
+
+scalar Date
+
+type Trip {
+  eid: ID!
+  title: String!
+  url: String!
+  description: String!
+  photos: [String]!
+  tags: [String]!
+}
