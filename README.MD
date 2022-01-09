@@ -24,10 +24,10 @@ end-point URL จะอยู่ที่ http://localhost:3000 ครับ
 เบื้องต้นได้ทำการ build production แล้ว ใช้คำสั่ง serve -s build ได้เลยครับ 
 
 
-#### Contact
-##### EMAIL:Aphisit.thu@gmail.com
-##### TEL:093-4358753
-##### GITHUB: github.com/apisit-kmitl/TIEWNAIDEE-FRONTEND
+### CONTACT
+##### email : aphisit.thu@gmail.com
+##### tel. : 093-4358753
+##### repo :  github.com/apisit-kmitl/TIEWNAIDEE-FRONTEND
 
 
 
