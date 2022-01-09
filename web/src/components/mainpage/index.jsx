@@ -3,6 +3,7 @@ import Card from "../card";
 import "./mainpage.scss";
 import { motion } from "framer-motion/dist/framer-motion";
 import Loader from "../loader/index";
+import ErrorLoader from "../error-loader/error";
 import gql from "graphql-tag";
 import { useQuery } from "@apollo/react-hooks";
 
@@ -25,7 +26,7 @@ export default function MainPage({ searchData, setSearchData }) {
     variables: { keyword: searchData },
   });
 
-  if (error) return "something wentworng";
+  if (error) return <ErrorLoader></ErrorLoader>;
   if (loading) return null;
   const { trips } = data;
 
@@ -46,6 +47,9 @@ export default function MainPage({ searchData, setSearchData }) {
       className="mainpage"
     >
       <div className="content">
+        {error && (<>
+          <ErrorLoader></ErrorLoader>
+        </>)}
         {trips.length === 0 && (
           <>
             <div className="modal-notfound">
